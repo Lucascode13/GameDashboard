@@ -1,8 +1,10 @@
-﻿using GameDashboard.ViewModels;
+﻿using System.Windows;
+using GameDashboard.ViewModels;
+
 
 namespace GameDashboard;
 
-public partial class MainWindow
+public partial class MainWindow : Window
 {
     public MainWindow(MainViewModel viewModel)
     {
